@@ -22,13 +22,13 @@ npm run preview
 - JavaScript: 既存の回路計算・問題データ・SVG描画・ドラッグ操作を維持
 - CSS: 画面とピース置き場の表示
 - Vite: 開発サーバーと静的ファイルのビルド
-- GitHub Actions / GitHub Pages: mainへのpushで自動ビルド・公開
+- GitHub Actions / GitHub Pages: mainへのpushで自動ビルド、公開は手動実行
 
 `src/game.js` は動作維持を優先して既存JavaScriptを移植したものです。回路描画にはCanvasではなくSVGを使っています。
 
 ## 公開
 
-リポジトリの Settings → Pages → Build and deployment の Source を **GitHub Actions** に設定し、mainへpushします。ActionsのDeploy GitHub Pagesが成功すると公開URLが表示されます。専用のバックエンド・データベースは不要です。
+リポジトリの Settings → Pages → Build and deployment の Source を **GitHub Actions** に設定し、Actions → Deploy GitHub Pages → Run workflow で publish を有効にして実行します。成功すると公開URLが表示されます。通常のmainへのpushではビルドのみ行います。専用のバックエンド・データベースは不要です。
 
 ## 現在の出題
 
