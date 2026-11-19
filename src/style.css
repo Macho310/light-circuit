@@ -119,3 +119,18 @@ button,input,select,textarea{font-family:var(--game-font)}
 .tutorial-prev{left:0}.tutorial-next{right:0}
 @media(max-width:600px){.rules-screen{padding:12px 8px}.rules-carousel{padding:0 26px}.rule-lesson{padding:0 3px}.rule-lesson h3{font-size:18px}.tutorial-prev,.tutorial-next{width:26px;height:46px;font-size:28px}}
 @media(prefers-reduced-motion:reduce){.tutorial-moving-piece{transition:none}.tutorial-board animateMotion{display:none}}
+
+/* Crossfade screen snapshots without shifting the live layout. */
+::view-transition-old(root){animation:screen-fade-out var(--screen-fade-duration,280ms) ease-in-out both}
+::view-transition-new(root){animation:screen-fade-in var(--screen-fade-duration,280ms) ease-in-out both}
+@keyframes screen-fade-out{to{opacity:0}}
+@keyframes screen-fade-in{from{opacity:0}}
+@media(prefers-reduced-motion:reduce){
+  ::view-transition-old(root),::view-transition-new(root){animation:none}
+}
+/* Keep hit targets finger-sized when the SVG scales down. */
+@media(any-pointer:coarse){
+  .piece-hit-area{stroke-width:44px;vector-effect:non-scaling-stroke}
+}
+.tray-slot[data-piece]{cursor:grab}
+#workspace{-webkit-touch-callout:none}

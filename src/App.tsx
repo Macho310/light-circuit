@@ -1,9 +1,25 @@
 import Rules from './Rules';
+import { flushSync } from 'react-dom';
 import { useEffect, useReducer, useRef, useState } from 'react';
 import { mountGame } from './game.js';
 import { createDailySession } from './daily-session.js';
 import Calendar from './Calendar';
 import { createPlayClock, formatElapsed, shareResult } from './play-clock.js';
+
+// Share one transition across navigation, completion, and dialogs.
+let activeTransition: { skipTransition: () => void } | null = null;
+function crossfade(update: () => void, duration = 280) {
+  const doc = document as Document & { startViewTransition?: (update: () => void) => { skipTransition: () => void } };
+  if (!doc.startViewTransition || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    update();
+    return;
+  }
+  activeTransition?.skipTransition();
+  activeTransition = doc.startViewTransition(() => {
+    document.documentElement.style.setProperty('--screen-fade-duration', duration + 'ms');
+    flushSync(update);
+  });
+}
 
 function CircuitIcon() {
   return <svg className="home-icon" viewBox="0 0 160 160" role="img" aria-label="電球と電池の回路">
@@ -23,10 +39,13 @@ export function Game({ puzzle, home }: { puzzle: Puzzle; home: () => void }) {
   const resultText = shareResult(puzzle.daily.date, timing.elapsed, window.location.origin + window.location.pathname);
   const cancelDrag = useRef<() => void>(() => {});
   useEffect(() => {
-    const cleanup = mountGame({ puzzle, isPaused: () => clock.snapshot().paused, onSolved: () => { clock.solve(); setTiming(clock.snapshot()); } });
+    const cleanup = mountGame({ puzzle, isPaused: () => clock.snapshot().paused, onSolved: () => { clock.solve(); crossfade(() => setTiming(clock.snapshot()), 600); } });
     cancelDrag.current = cleanup.cancelDrag;
     clock.start();
-    const interval = window.setInterval(() => setTiming(clock.snapshot()), 200);
+    // Completion owns the final update so a timer tick cannot bypass its fade.
+    const interval = window.setInterval(() => {
+      if (!clock.snapshot().solved) setTiming(clock.snapshot());
+    }, 200);
     return () => { window.clearInterval(interval); cleanup(); };
   }, [puzzle, clock]);
   function pause() {
@@ -80,24 +99,43 @@ export function Home({ session }: { session: Session }) {
   const state = session.getState();
   const calendar = useRef<HTMLDialogElement>(null);
   const [calendarOpen, setCalendarOpen] = useState(false);
+  function openCalendar() {
+    crossfade(() => {
+      session.refreshToday();
+      setCalendarOpen(true);
+      calendar.current?.showModal();
+    });
+  }
+  function closeCalendar() {
+    crossfade(() => {
+      calendar.current?.close();
+      setCalendarOpen(false);
+    });
+  }
   return <main className="home-screen">
     <h1>Light Circuit</h1>
     <div className="home-date"><time dateTime={state.selectedDate}>{state.selectedDate}</time>
-      <button className="calendar-button" aria-label="日付を選択" onClick={() => { session.refreshToday(); setCalendarOpen(true); calendar.current?.showModal(); }}>
+      <button className="calendar-button" aria-label="日付を選択" onClick={openCalendar}>
         <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="16" rx="2" /><path d="M8 3v5m8-5v5M4 11h16" /></svg>
       </button>
     </div>
     <CircuitIcon />
     <div className="home-actions"><button className="play-button" onClick={() => session.play()}>PLAY</button><button onClick={() => session.rules()}>HOW TO PLAY</button></div>
-    <dialog className="date-dialog" aria-label="日付を選択" ref={calendar} onClose={() => setCalendarOpen(false)} onClick={event => { if (event.target === calendar.current) calendar.current?.close(); }}>
-      {calendarOpen && <Calendar selected={state.selectedDate} today={state.today} select={session.selectDate} close={() => calendar.current?.close()} />}
+    <dialog className="date-dialog" aria-label="日付を選択" ref={calendar} onClose={() => setCalendarOpen(false)} onCancel={event => { event.preventDefault(); closeCalendar(); }} onClick={event => { if (event.target === calendar.current) closeCalendar(); }}>
+      {calendarOpen && <Calendar selected={state.selectedDate} today={state.today} select={session.selectDate} close={closeCalendar} />}
     </dialog>
   </main>;
 }
 
 export default function App() {
   const [, refresh] = useReducer(n => n + 1, 0);
-  const [session] = useState(() => createDailySession({ onChange: () => refresh() }));
+  const screen = useRef('home');
+  const [session] = useState(() => createDailySession({ onChange: (next: { screen: string } = { screen: screen.current }) => {
+    const changed = screen.current !== next.screen;
+    screen.current = next.screen;
+    if (changed) crossfade(() => refresh());
+    else refresh();
+  } }));
   const state = session.getState();
   useEffect(() => {
     const update = () => session.refreshToday();

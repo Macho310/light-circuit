@@ -147,3 +147,19 @@ test('pause cancels captured drag and blocks pointer and keyboard changes until 
   } finally { h.cleanup(); }
 });
 
+
+test('stationary press highlights the selected tray piece and clears on cancellation', () => {
+  const h = harness({ puzzle: generatePuzzle('ui-test').puzzle });
+  const { elements: el, event } = h;
+  try {
+    assert.equal(el.tray.children[0].dataset.piece, '0');
+    el.workspace.onpointerdown(event(0, 700, 700));
+    assert.match(el.tray.children[0].innerHTML, /drag-highlight/);
+    assert(!el.tray.children[1].innerHTML.includes('drag-highlight'));
+    assert(el.ghost.hidden);
+    el.workspace.onpointermove(event(0, 702, 701));
+    assert.match(el.tray.children[0].innerHTML, /drag-highlight/);
+    el.workspace.onlostpointercapture();
+    assert(!el.tray.children[0].innerHTML.includes('drag-highlight'));
+  } finally { h.cleanup(); }
+});
