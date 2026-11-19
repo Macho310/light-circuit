@@ -1,0 +1,1768 @@
+{
+  "generatorVersion": "unique-spread-1",
+  "environment": {
+    "node": "v24.11.1",
+    "platform": "win32",
+    "arch": "x64",
+    "cpu": "13th Gen Intel(R) Core(TM) i7-13700F"
+  },
+  "runs": [
+    {
+      "seed": "benchmark-0-18",
+      "success": true,
+      "resistors": 0,
+      "candidates": 2,
+      "attempts": 105,
+      "checked": 92,
+      "rejected": {
+        "generation": 0,
+        "spread": 1,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 26.9199,
+      "wallMs": 27.0322
+    },
+    {
+      "seed": "benchmark-0-25",
+      "success": true,
+      "resistors": 0,
+      "candidates": 8,
+      "attempts": 381,
+      "checked": 4360,
+      "rejected": {
+        "generation": 0,
+        "spread": 5,
+        "multiple": 2,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 95.31429999999999,
+      "wallMs": 95.32489999999999
+    },
+    {
+      "seed": "benchmark-0-26",
+      "success": true,
+      "resistors": 0,
+      "candidates": 47,
+      "attempts": 5215,
+      "checked": 10458,
+      "rejected": {
+        "generation": 0,
+        "spread": 35,
+        "multiple": 11,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 784.7796,
+      "wallMs": 784.8162
+    },
+    {
+      "seed": "benchmark-0-27",
+      "success": true,
+      "resistors": 0,
+      "candidates": 5,
+      "attempts": 728,
+      "checked": 1984,
+      "rejected": {
+        "generation": 0,
+        "spread": 3,
+        "multiple": 1,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 115.27359999999999,
+      "wallMs": 115.30369999999994
+    },
+    {
+      "seed": "benchmark-0-30",
+      "success": true,
+      "resistors": 0,
+      "candidates": 8,
+      "attempts": 1085,
+      "checked": 36,
+      "rejected": {
+        "generation": 0,
+        "spread": 7,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 155.4978000000001,
+      "wallMs": 155.52379999999994
+    },
+    {
+      "seed": "benchmark-0-33",
+      "success": true,
+      "resistors": 0,
+      "candidates": 4,
+      "attempts": 729,
+      "checked": 235,
+      "rejected": {
+        "generation": 0,
+        "spread": 2,
+        "multiple": 1,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 104.0181,
+      "wallMs": 104.03699999999981
+    },
+    {
+      "seed": "benchmark-0-35",
+      "success": true,
+      "resistors": 0,
+      "candidates": 11,
+      "attempts": 1098,
+      "checked": 4746,
+      "rejected": {
+        "generation": 0,
+        "spread": 6,
+        "multiple": 4,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 185.5911000000001,
+      "wallMs": 185.60989999999993
+    },
+    {
+      "seed": "benchmark-0-38",
+      "success": true,
+      "resistors": 0,
+      "candidates": 9,
+      "attempts": 760,
+      "checked": 1014,
+      "rejected": {
+        "generation": 0,
+        "spread": 6,
+        "multiple": 2,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 118.63260000000014,
+      "wallMs": 118.64989999999989
+    },
+    {
+      "seed": "benchmark-0-45",
+      "success": true,
+      "resistors": 0,
+      "candidates": 43,
+      "attempts": 3496,
+      "checked": 6762,
+      "rejected": {
+        "generation": 0,
+        "spread": 34,
+        "multiple": 8,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 530.0124999999998,
+      "wallMs": 530.0356999999999
+    },
+    {
+      "seed": "benchmark-0-52",
+      "success": true,
+      "resistors": 0,
+      "candidates": 3,
+      "attempts": 514,
+      "checked": 327,
+      "rejected": {
+        "generation": 0,
+        "spread": 1,
+        "multiple": 1,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 71.2769000000003,
+      "wallMs": 71.29230000000007
+    },
+    {
+      "seed": "benchmark-0-56",
+      "success": true,
+      "resistors": 0,
+      "candidates": 9,
+      "attempts": 1200,
+      "checked": 3516,
+      "rejected": {
+        "generation": 0,
+        "spread": 6,
+        "multiple": 2,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 192.8436999999999,
+      "wallMs": 192.85210000000006
+    },
+    {
+      "seed": "benchmark-0-70",
+      "success": true,
+      "resistors": 0,
+      "candidates": 16,
+      "attempts": 1894,
+      "checked": 3532,
+      "rejected": {
+        "generation": 0,
+        "spread": 12,
+        "multiple": 3,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 278.53729999999996,
+      "wallMs": 278.5445999999997
+    },
+    {
+      "seed": "benchmark-0-77",
+      "success": true,
+      "resistors": 0,
+      "candidates": 13,
+      "attempts": 1020,
+      "checked": 8226,
+      "rejected": {
+        "generation": 0,
+        "spread": 6,
+        "multiple": 6,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 183.5876000000003,
+      "wallMs": 183.59529999999995
+    },
+    {
+      "seed": "benchmark-0-80",
+      "success": true,
+      "resistors": 0,
+      "candidates": 2,
+      "attempts": 148,
+      "checked": 638,
+      "rejected": {
+        "generation": 0,
+        "spread": 1,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 24.11730000000034,
+      "wallMs": 24.125600000000304
+    },
+    {
+      "seed": "benchmark-0-86",
+      "success": true,
+      "resistors": 0,
+      "candidates": 10,
+      "attempts": 1600,
+      "checked": 1115,
+      "rejected": {
+        "generation": 0,
+        "spread": 6,
+        "multiple": 3,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 232.47650000000021,
+      "wallMs": 232.48489999999993
+    },
+    {
+      "seed": "benchmark-0-87",
+      "success": true,
+      "resistors": 0,
+      "candidates": 1,
+      "attempts": 1,
+      "checked": 304,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 1.7991000000001804,
+      "wallMs": 1.8065999999998894
+    },
+    {
+      "seed": "benchmark-0-88",
+      "success": true,
+      "resistors": 0,
+      "candidates": 4,
+      "attempts": 662,
+      "checked": 5798,
+      "rejected": {
+        "generation": 0,
+        "spread": 2,
+        "multiple": 1,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 116.41420000000016,
+      "wallMs": 116.42090000000007
+    },
+    {
+      "seed": "benchmark-0-91",
+      "success": true,
+      "resistors": 0,
+      "candidates": 2,
+      "attempts": 176,
+      "checked": 148,
+      "rejected": {
+        "generation": 0,
+        "spread": 1,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 26.23169999999982,
+      "wallMs": 26.240499999999884
+    },
+    {
+      "seed": "benchmark-0-97",
+      "success": true,
+      "resistors": 0,
+      "candidates": 10,
+      "attempts": 395,
+      "checked": 1052,
+      "rejected": {
+        "generation": 0,
+        "spread": 7,
+        "multiple": 2,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 60.66750000000002,
+      "wallMs": 60.67590000000018
+    },
+    {
+      "seed": "benchmark-0-98",
+      "success": true,
+      "resistors": 0,
+      "candidates": 35,
+      "attempts": 3718,
+      "checked": 4854,
+      "rejected": {
+        "generation": 0,
+        "spread": 27,
+        "multiple": 7,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 557.0351,
+      "wallMs": 557.0439000000001
+    },
+    {
+      "seed": "benchmark-1-3",
+      "success": true,
+      "resistors": 1,
+      "candidates": 3,
+      "attempts": 210,
+      "checked": 116,
+      "rejected": {
+        "generation": 0,
+        "spread": 2,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 34.183500000000095,
+      "wallMs": 34.1913999999997
+    },
+    {
+      "seed": "benchmark-1-5",
+      "success": true,
+      "resistors": 1,
+      "candidates": 5,
+      "attempts": 654,
+      "checked": 132,
+      "rejected": {
+        "generation": 0,
+        "spread": 4,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 100.97469999999976,
+      "wallMs": 100.98360000000002
+    },
+    {
+      "seed": "benchmark-1-9",
+      "success": true,
+      "resistors": 1,
+      "candidates": 11,
+      "attempts": 899,
+      "checked": 1011,
+      "rejected": {
+        "generation": 0,
+        "spread": 8,
+        "multiple": 2,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 136.5906,
+      "wallMs": 136.6026999999999
+    },
+    {
+      "seed": "benchmark-1-16",
+      "success": true,
+      "resistors": 1,
+      "candidates": 2,
+      "attempts": 309,
+      "checked": 1377,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 1,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 48.92829999999958,
+      "wallMs": 48.9367000000002
+    },
+    {
+      "seed": "benchmark-1-25",
+      "success": true,
+      "resistors": 1,
+      "candidates": 5,
+      "attempts": 485,
+      "checked": 840,
+      "rejected": {
+        "generation": 0,
+        "spread": 4,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 72.01189999999951,
+      "wallMs": 72.02050000000054
+    },
+    {
+      "seed": "benchmark-1-26",
+      "success": true,
+      "resistors": 1,
+      "candidates": 4,
+      "attempts": 285,
+      "checked": 150,
+      "rejected": {
+        "generation": 0,
+        "spread": 2,
+        "multiple": 1,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 42.1271999999999,
+      "wallMs": 42.13540000000012
+    },
+    {
+      "seed": "benchmark-1-31",
+      "success": true,
+      "resistors": 1,
+      "candidates": 6,
+      "attempts": 223,
+      "checked": 1793,
+      "rejected": {
+        "generation": 0,
+        "spread": 3,
+        "multiple": 2,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 39.57309999999961,
+      "wallMs": 39.580699999999524
+    },
+    {
+      "seed": "benchmark-1-32",
+      "success": true,
+      "resistors": 1,
+      "candidates": 2,
+      "attempts": 159,
+      "checked": 1148,
+      "rejected": {
+        "generation": 0,
+        "spread": 1,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 25.89969999999994,
+      "wallMs": 25.90819999999985
+    },
+    {
+      "seed": "benchmark-1-36",
+      "success": true,
+      "resistors": 1,
+      "candidates": 2,
+      "attempts": 835,
+      "checked": 2576,
+      "rejected": {
+        "generation": 0,
+        "spread": 1,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 133.47119999999995,
+      "wallMs": 133.48010000000068
+    },
+    {
+      "seed": "benchmark-1-41",
+      "success": true,
+      "resistors": 1,
+      "candidates": 5,
+      "attempts": 265,
+      "checked": 78,
+      "rejected": {
+        "generation": 0,
+        "spread": 4,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 38.19290000000001,
+      "wallMs": 38.20229999999992
+    },
+    {
+      "seed": "benchmark-1-42",
+      "success": true,
+      "resistors": 1,
+      "candidates": 4,
+      "attempts": 434,
+      "checked": 1792,
+      "rejected": {
+        "generation": 0,
+        "spread": 2,
+        "multiple": 1,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 67.9353000000001,
+      "wallMs": 67.94390000000021
+    },
+    {
+      "seed": "benchmark-1-45",
+      "success": true,
+      "resistors": 1,
+      "candidates": 2,
+      "attempts": 260,
+      "checked": 1600,
+      "rejected": {
+        "generation": 0,
+        "spread": 1,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 44.877700000000004,
+      "wallMs": 44.88640000000032
+    },
+    {
+      "seed": "benchmark-1-54",
+      "success": true,
+      "resistors": 1,
+      "candidates": 5,
+      "attempts": 788,
+      "checked": 641,
+      "rejected": {
+        "generation": 0,
+        "spread": 2,
+        "multiple": 2,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 111.23980000000029,
+      "wallMs": 111.24799999999959
+    },
+    {
+      "seed": "benchmark-1-55",
+      "success": true,
+      "resistors": 1,
+      "candidates": 2,
+      "attempts": 298,
+      "checked": 208,
+      "rejected": {
+        "generation": 0,
+        "spread": 1,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 43.21529999999984,
+      "wallMs": 43.22410000000036
+    },
+    {
+      "seed": "benchmark-1-61",
+      "success": true,
+      "resistors": 1,
+      "candidates": 6,
+      "attempts": 1075,
+      "checked": 464,
+      "rejected": {
+        "generation": 0,
+        "spread": 5,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 149.27010000000064,
+      "wallMs": 149.27860000000055
+    },
+    {
+      "seed": "benchmark-1-66",
+      "success": true,
+      "resistors": 1,
+      "candidates": 1,
+      "attempts": 171,
+      "checked": 1832,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 31.214999999999236,
+      "wallMs": 31.22270000000026
+    },
+    {
+      "seed": "benchmark-1-73",
+      "success": true,
+      "resistors": 1,
+      "candidates": 1,
+      "attempts": 89,
+      "checked": 248,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 14.339500000000044,
+      "wallMs": 14.348500000000058
+    },
+    {
+      "seed": "benchmark-1-79",
+      "success": true,
+      "resistors": 1,
+      "candidates": 11,
+      "attempts": 881,
+      "checked": 256,
+      "rejected": {
+        "generation": 0,
+        "spread": 9,
+        "multiple": 1,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 125.23819999999978,
+      "wallMs": 125.2456000000002
+    },
+    {
+      "seed": "benchmark-1-94",
+      "success": true,
+      "resistors": 1,
+      "candidates": 1,
+      "attempts": 21,
+      "checked": 230,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 4.304699999999684,
+      "wallMs": 4.3121000000001
+    },
+    {
+      "seed": "benchmark-1-98",
+      "success": true,
+      "resistors": 1,
+      "candidates": 8,
+      "attempts": 807,
+      "checked": 14883,
+      "rejected": {
+        "generation": 0,
+        "spread": 4,
+        "multiple": 3,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 171.4360999999999,
+      "wallMs": 171.4431000000004
+    },
+    {
+      "seed": "benchmark-2-0",
+      "success": true,
+      "resistors": 2,
+      "candidates": 3,
+      "attempts": 340,
+      "checked": 560,
+      "rejected": {
+        "generation": 0,
+        "spread": 2,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 51.13999999999942,
+      "wallMs": 51.147799999999734
+    },
+    {
+      "seed": "benchmark-2-4",
+      "success": true,
+      "resistors": 2,
+      "candidates": 1,
+      "attempts": 17,
+      "checked": 124,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 3.373199999999997,
+      "wallMs": 3.379899999999907
+    },
+    {
+      "seed": "benchmark-2-5",
+      "success": true,
+      "resistors": 2,
+      "candidates": 1,
+      "attempts": 6,
+      "checked": 28,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 1.37920000000031,
+      "wallMs": 1.3841000000002168
+    },
+    {
+      "seed": "benchmark-2-8",
+      "success": true,
+      "resistors": 2,
+      "candidates": 1,
+      "attempts": 493,
+      "checked": 96,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 70.78849999999966,
+      "wallMs": 70.79349999999977
+    },
+    {
+      "seed": "benchmark-2-9",
+      "success": true,
+      "resistors": 2,
+      "candidates": 1,
+      "attempts": 43,
+      "checked": 80,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 7.023199999999633,
+      "wallMs": 7.029999999999745
+    },
+    {
+      "seed": "benchmark-2-12",
+      "success": true,
+      "resistors": 2,
+      "candidates": 1,
+      "attempts": 7,
+      "checked": 72,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 1.6325999999999112,
+      "wallMs": 1.6387999999997191
+    },
+    {
+      "seed": "benchmark-2-17",
+      "success": true,
+      "resistors": 2,
+      "candidates": 4,
+      "attempts": 244,
+      "checked": 568,
+      "rejected": {
+        "generation": 0,
+        "spread": 3,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 38.45799999999963,
+      "wallMs": 38.464500000000044
+    },
+    {
+      "seed": "benchmark-2-31",
+      "success": true,
+      "resistors": 2,
+      "candidates": 3,
+      "attempts": 199,
+      "checked": 527,
+      "rejected": {
+        "generation": 0,
+        "spread": 1,
+        "multiple": 1,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 29.955399999999827,
+      "wallMs": 29.96480000000065
+    },
+    {
+      "seed": "benchmark-2-36",
+      "success": true,
+      "resistors": 2,
+      "candidates": 1,
+      "attempts": 285,
+      "checked": 852,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 44.35659999999916,
+      "wallMs": 44.36459999999988
+    },
+    {
+      "seed": "benchmark-2-41",
+      "success": true,
+      "resistors": 2,
+      "candidates": 1,
+      "attempts": 281,
+      "checked": 192,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 41.057599999999184,
+      "wallMs": 41.065200000000004
+    },
+    {
+      "seed": "benchmark-2-46",
+      "success": true,
+      "resistors": 2,
+      "candidates": 6,
+      "attempts": 528,
+      "checked": 5081,
+      "rejected": {
+        "generation": 0,
+        "spread": 3,
+        "multiple": 2,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 94.3703000000005,
+      "wallMs": 94.37890000000061
+    },
+    {
+      "seed": "benchmark-2-51",
+      "success": true,
+      "resistors": 2,
+      "candidates": 7,
+      "attempts": 1131,
+      "checked": 6149,
+      "rejected": {
+        "generation": 0,
+        "spread": 4,
+        "multiple": 2,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 188.72119999999995,
+      "wallMs": 188.72899999999936
+    },
+    {
+      "seed": "benchmark-2-53",
+      "success": true,
+      "resistors": 2,
+      "candidates": 5,
+      "attempts": 859,
+      "checked": 4736,
+      "rejected": {
+        "generation": 0,
+        "spread": 2,
+        "multiple": 2,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 139.5688999999993,
+      "wallMs": 139.57809999999972
+    },
+    {
+      "seed": "benchmark-2-56",
+      "success": true,
+      "resistors": 2,
+      "candidates": 1,
+      "attempts": 309,
+      "checked": 480,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 46.97980000000007,
+      "wallMs": 46.988500000000386
+    },
+    {
+      "seed": "benchmark-2-67",
+      "success": true,
+      "resistors": 2,
+      "candidates": 1,
+      "attempts": 28,
+      "checked": 3104,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 17.82670000000053,
+      "wallMs": 17.840699999999742
+    },
+    {
+      "seed": "benchmark-2-70",
+      "success": true,
+      "resistors": 2,
+      "candidates": 11,
+      "attempts": 1243,
+      "checked": 4616,
+      "rejected": {
+        "generation": 0,
+        "spread": 6,
+        "multiple": 4,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 195.22940000000017,
+      "wallMs": 195.23849999999948
+    },
+    {
+      "seed": "benchmark-2-73",
+      "success": true,
+      "resistors": 2,
+      "candidates": 1,
+      "attempts": 204,
+      "checked": 40,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 31.23199999999997,
+      "wallMs": 31.24159999999938
+    },
+    {
+      "seed": "benchmark-2-79",
+      "success": true,
+      "resistors": 2,
+      "candidates": 5,
+      "attempts": 326,
+      "checked": 1008,
+      "rejected": {
+        "generation": 0,
+        "spread": 4,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 50.80109999999968,
+      "wallMs": 50.809799999999996
+    },
+    {
+      "seed": "benchmark-2-86",
+      "success": true,
+      "resistors": 2,
+      "candidates": 2,
+      "attempts": 280,
+      "checked": 3364,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 1,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 48.15819999999985,
+      "wallMs": 48.16739999999936
+    },
+    {
+      "seed": "benchmark-2-87",
+      "success": true,
+      "resistors": 2,
+      "candidates": 2,
+      "attempts": 93,
+      "checked": 280,
+      "rejected": {
+        "generation": 0,
+        "spread": 1,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 16.112099999999373,
+      "wallMs": 16.119699999999284
+    },
+    {
+      "seed": "benchmark-3-3",
+      "success": true,
+      "resistors": 3,
+      "candidates": 1,
+      "attempts": 41,
+      "checked": 1310,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 14.530000000000655,
+      "wallMs": 14.53819999999996
+    },
+    {
+      "seed": "benchmark-3-4",
+      "success": true,
+      "resistors": 3,
+      "candidates": 8,
+      "attempts": 1701,
+      "checked": 5323,
+      "rejected": {
+        "generation": 0,
+        "spread": 3,
+        "multiple": 4,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 252.89279999999962,
+      "wallMs": 252.90110000000004
+    },
+    {
+      "seed": "benchmark-3-9",
+      "success": true,
+      "resistors": 3,
+      "candidates": 11,
+      "attempts": 2368,
+      "checked": 13682,
+      "rejected": {
+        "generation": 0,
+        "spread": 5,
+        "multiple": 5,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 383.8189000000002,
+      "wallMs": 383.8263999999999
+    },
+    {
+      "seed": "benchmark-3-20",
+      "success": true,
+      "resistors": 3,
+      "candidates": 2,
+      "attempts": 433,
+      "checked": 2080,
+      "rejected": {
+        "generation": 0,
+        "spread": 1,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 72.67110000000048,
+      "wallMs": 72.67929999999978
+    },
+    {
+      "seed": "benchmark-3-22",
+      "success": true,
+      "resistors": 3,
+      "candidates": 2,
+      "attempts": 385,
+      "checked": 651,
+      "rejected": {
+        "generation": 0,
+        "spread": 1,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 58.344600000000355,
+      "wallMs": 58.35400000000027
+    },
+    {
+      "seed": "benchmark-3-24",
+      "success": true,
+      "resistors": 3,
+      "candidates": 6,
+      "attempts": 2365,
+      "checked": 4662,
+      "rejected": {
+        "generation": 0,
+        "spread": 5,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 347.9468999999999,
+      "wallMs": 347.95540000000074
+    },
+    {
+      "seed": "benchmark-3-26",
+      "success": true,
+      "resistors": 3,
+      "candidates": 3,
+      "attempts": 741,
+      "checked": 1813,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 2,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 113.2427000000007,
+      "wallMs": 113.2519999999995
+    },
+    {
+      "seed": "benchmark-3-40",
+      "success": true,
+      "resistors": 3,
+      "candidates": 4,
+      "attempts": 1447,
+      "checked": 1620,
+      "rejected": {
+        "generation": 0,
+        "spread": 3,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 188.8175000000001,
+      "wallMs": 188.82549999999992
+    },
+    {
+      "seed": "benchmark-3-41",
+      "success": true,
+      "resistors": 3,
+      "candidates": 3,
+      "attempts": 567,
+      "checked": 1030,
+      "rejected": {
+        "generation": 0,
+        "spread": 1,
+        "multiple": 1,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 87.0634,
+      "wallMs": 87.07229999999981
+    },
+    {
+      "seed": "benchmark-3-42",
+      "success": true,
+      "resistors": 3,
+      "candidates": 2,
+      "attempts": 218,
+      "checked": 112,
+      "rejected": {
+        "generation": 0,
+        "spread": 1,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 32.97829999999976,
+      "wallMs": 32.98649999999998
+    },
+    {
+      "seed": "benchmark-3-43",
+      "success": true,
+      "resistors": 3,
+      "candidates": 5,
+      "attempts": 891,
+      "checked": 2667,
+      "rejected": {
+        "generation": 0,
+        "spread": 2,
+        "multiple": 2,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 144.1761000000006,
+      "wallMs": 144.1844000000001
+    },
+    {
+      "seed": "benchmark-3-44",
+      "success": true,
+      "resistors": 3,
+      "candidates": 3,
+      "attempts": 846,
+      "checked": 1360,
+      "rejected": {
+        "generation": 0,
+        "spread": 2,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 132.35160000000087,
+      "wallMs": 132.36080000000038
+    },
+    {
+      "seed": "benchmark-3-48",
+      "success": true,
+      "resistors": 3,
+      "candidates": 1,
+      "attempts": 118,
+      "checked": 1060,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 24.221599999998944,
+      "wallMs": 24.231300000001283
+    },
+    {
+      "seed": "benchmark-3-55",
+      "success": true,
+      "resistors": 3,
+      "candidates": 2,
+      "attempts": 512,
+      "checked": 1104,
+      "rejected": {
+        "generation": 0,
+        "spread": 1,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 79.08040000000074,
+      "wallMs": 79.09039999999914
+    },
+    {
+      "seed": "benchmark-3-57",
+      "success": true,
+      "resistors": 3,
+      "candidates": 10,
+      "attempts": 2424,
+      "checked": 984,
+      "rejected": {
+        "generation": 0,
+        "spread": 6,
+        "multiple": 3,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 362.0402000000013,
+      "wallMs": 362.04869999999937
+    },
+    {
+      "seed": "benchmark-3-58",
+      "success": true,
+      "resistors": 3,
+      "candidates": 2,
+      "attempts": 518,
+      "checked": 756,
+      "rejected": {
+        "generation": 0,
+        "spread": 1,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 74.5038999999997,
+      "wallMs": 74.51260000000002
+    },
+    {
+      "seed": "benchmark-3-71",
+      "success": true,
+      "resistors": 3,
+      "candidates": 3,
+      "attempts": 968,
+      "checked": 2336,
+      "rejected": {
+        "generation": 0,
+        "spread": 2,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 141.10500000000138,
+      "wallMs": 141.1145000000015
+    },
+    {
+      "seed": "benchmark-3-72",
+      "success": true,
+      "resistors": 3,
+      "candidates": 5,
+      "attempts": 258,
+      "checked": 684,
+      "rejected": {
+        "generation": 0,
+        "spread": 3,
+        "multiple": 1,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 40.91569999999956,
+      "wallMs": 40.92500000000109
+    },
+    {
+      "seed": "benchmark-3-73",
+      "success": true,
+      "resistors": 3,
+      "candidates": 1,
+      "attempts": 51,
+      "checked": 392,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 8.70719999999892,
+      "wallMs": 8.71690000000126
+    },
+    {
+      "seed": "benchmark-3-81",
+      "success": true,
+      "resistors": 3,
+      "candidates": 6,
+      "attempts": 720,
+      "checked": 2305,
+      "rejected": {
+        "generation": 0,
+        "spread": 2,
+        "multiple": 3,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 108.4939000000013,
+      "wallMs": 108.5025999999998
+    },
+    {
+      "seed": "benchmark-4-11",
+      "success": true,
+      "resistors": 4,
+      "candidates": 8,
+      "attempts": 4581,
+      "checked": 13747,
+      "rejected": {
+        "generation": 0,
+        "spread": 2,
+        "multiple": 5,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 694.214899999999,
+      "wallMs": 694.222099999999
+    },
+    {
+      "seed": "benchmark-4-18",
+      "success": true,
+      "resistors": 4,
+      "candidates": 1,
+      "attempts": 272,
+      "checked": 1448,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 49.254400000001624,
+      "wallMs": 49.26419999999962
+    },
+    {
+      "seed": "benchmark-4-20",
+      "success": true,
+      "resistors": 4,
+      "candidates": 1,
+      "attempts": 434,
+      "checked": 1664,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 73.64949999999953,
+      "wallMs": 73.65820000000167
+    },
+    {
+      "seed": "benchmark-4-26",
+      "success": true,
+      "resistors": 4,
+      "candidates": 1,
+      "attempts": 209,
+      "checked": 408,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 33.97910000000047,
+      "wallMs": 33.98919999999998
+    },
+    {
+      "seed": "benchmark-4-30",
+      "success": true,
+      "resistors": 4,
+      "candidates": 2,
+      "attempts": 589,
+      "checked": 12708,
+      "rejected": {
+        "generation": 0,
+        "spread": 1,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 140.20710000000145,
+      "wallMs": 140.21999999999935
+    },
+    {
+      "seed": "benchmark-4-41",
+      "success": true,
+      "resistors": 4,
+      "candidates": 4,
+      "attempts": 2396,
+      "checked": 8924,
+      "rejected": {
+        "generation": 0,
+        "spread": 1,
+        "multiple": 2,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 360.2997000000014,
+      "wallMs": 360.3100000000013
+    },
+    {
+      "seed": "benchmark-4-44",
+      "success": true,
+      "resistors": 4,
+      "candidates": 1,
+      "attempts": 522,
+      "checked": 1460,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 87.13769999999931,
+      "wallMs": 87.14719999999943
+    },
+    {
+      "seed": "benchmark-4-47",
+      "success": true,
+      "resistors": 4,
+      "candidates": 4,
+      "attempts": 1270,
+      "checked": 5432,
+      "rejected": {
+        "generation": 0,
+        "spread": 2,
+        "multiple": 1,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 203.80669999999918,
+      "wallMs": 203.8162999999986
+    },
+    {
+      "seed": "benchmark-4-48",
+      "success": true,
+      "resistors": 4,
+      "candidates": 1,
+      "attempts": 497,
+      "checked": 688,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 76.79759999999987,
+      "wallMs": 76.80589999999938
+    },
+    {
+      "seed": "benchmark-4-56",
+      "success": true,
+      "resistors": 4,
+      "candidates": 1,
+      "attempts": 538,
+      "checked": 2790,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 78.62950000000092,
+      "wallMs": 78.63860000000022
+    },
+    {
+      "seed": "benchmark-4-65",
+      "success": true,
+      "resistors": 4,
+      "candidates": 2,
+      "attempts": 528,
+      "checked": 270,
+      "rejected": {
+        "generation": 0,
+        "spread": 1,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 75.79089999999997,
+      "wallMs": 75.79950000000099
+    },
+    {
+      "seed": "benchmark-4-70",
+      "success": true,
+      "resistors": 4,
+      "candidates": 5,
+      "attempts": 2138,
+      "checked": 1045,
+      "rejected": {
+        "generation": 0,
+        "spread": 3,
+        "multiple": 1,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 305.16939999999886,
+      "wallMs": 305.1779999999999
+    },
+    {
+      "seed": "benchmark-4-78",
+      "success": true,
+      "resistors": 4,
+      "candidates": 2,
+      "attempts": 482,
+      "checked": 240,
+      "rejected": {
+        "generation": 0,
+        "spread": 1,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 75.43130000000019,
+      "wallMs": 75.4398999999994
+    },
+    {
+      "seed": "benchmark-4-82",
+      "success": true,
+      "resistors": 4,
+      "candidates": 6,
+      "attempts": 2621,
+      "checked": 2925,
+      "rejected": {
+        "generation": 0,
+        "spread": 3,
+        "multiple": 2,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 368.4435000000012,
+      "wallMs": 368.4519999999993
+    },
+    {
+      "seed": "benchmark-4-104",
+      "success": true,
+      "resistors": 4,
+      "candidates": 2,
+      "attempts": 462,
+      "checked": 133,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 1,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 64.15920000000006,
+      "wallMs": 64.16830000000118
+    },
+    {
+      "seed": "benchmark-4-115",
+      "success": true,
+      "resistors": 4,
+      "candidates": 1,
+      "attempts": 37,
+      "checked": 240,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 7.24960000000101,
+      "wallMs": 7.2585999999992055
+    },
+    {
+      "seed": "benchmark-4-116",
+      "success": true,
+      "resistors": 4,
+      "candidates": 2,
+      "attempts": 448,
+      "checked": 4914,
+      "rejected": {
+        "generation": 0,
+        "spread": 1,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 85.9382000000005,
+      "wallMs": 85.94620000000032
+    },
+    {
+      "seed": "benchmark-4-125",
+      "success": true,
+      "resistors": 4,
+      "candidates": 4,
+      "attempts": 1376,
+      "checked": 118,
+      "rejected": {
+        "generation": 0,
+        "spread": 3,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 198.80169999999998,
+      "wallMs": 198.8119999999999
+    },
+    {
+      "seed": "benchmark-4-128",
+      "success": true,
+      "resistors": 4,
+      "candidates": 1,
+      "attempts": 151,
+      "checked": 2048,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 0,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 30.07140000000072,
+      "wallMs": 30.081700000000637
+    },
+    {
+      "seed": "benchmark-4-135",
+      "success": true,
+      "resistors": 4,
+      "candidates": 2,
+      "attempts": 693,
+      "checked": 2393,
+      "rejected": {
+        "generation": 0,
+        "spread": 0,
+        "multiple": 1,
+        "incomplete": 0,
+        "noSolution": 0
+      },
+      "elapsedMs": 113.84310000000005,
+      "wallMs": 113.85130000000026
+    }
+  ],
+  "summary": [
+    {
+      "resistors": 0,
+      "runs": 20,
+      "success": 20,
+      "medianMs": 116.42090000000007,
+      "p90Ms": 530.0356999999999,
+      "maxMs": 784.8162,
+      "meanCandidates": 12.1,
+      "maxCandidates": 47,
+      "meanAttempts": 1246.25
+    },
+    {
+      "resistors": 1,
+      "runs": 20,
+      "success": 20,
+      "medianMs": 44.88640000000032,
+      "p90Ms": 136.6026999999999,
+      "maxMs": 171.4431000000004,
+      "meanCandidates": 4.3,
+      "maxCandidates": 11,
+      "meanAttempts": 457.4
+    },
+    {
+      "resistors": 2,
+      "runs": 20,
+      "success": 20,
+      "medianMs": 41.065200000000004,
+      "p90Ms": 139.57809999999972,
+      "maxMs": 195.23849999999948,
+      "meanCandidates": 2.9,
+      "maxCandidates": 11,
+      "meanAttempts": 345.8
+    },
+    {
+      "resistors": 3,
+      "runs": 20,
+      "success": 20,
+      "medianMs": 87.07229999999981,
+      "p90Ms": 347.95540000000074,
+      "maxMs": 383.8263999999999,
+      "meanCandidates": 4,
+      "maxCandidates": 11,
+      "meanAttempts": 878.6
+    },
+    {
+      "resistors": 4,
+      "runs": 20,
+      "success": 20,
+      "medianMs": 78.63860000000022,
+      "p90Ms": 360.3100000000013,
+      "maxMs": 694.222099999999,
+      "meanCandidates": 2.55,
+      "maxCandidates": 8,
+      "meanAttempts": 1012.2
+    }
+  ]
+}

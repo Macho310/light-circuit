@@ -1,0 +1,20 @@
+{
+  "sources": {
+    "circuit.js": "b6254269fc70d53554a8207b78504d828d9ad6a3ad8730afc0df336bf0208a38",
+    "generator.js": "93839a34236f55ccf8d36037d5492f7a75c264badee416bd7f8d3a346d25dfd7"
+  },
+  "days": [
+    {
+      "date": "2000-01-01",
+      "fingerprint": "56208ded8ae798c874ba046cf648819ea31931c595e65c6b948adc95a6b40e04"
+    },
+    {
+      "date": "2024-02-29",
+      "fingerprint": "d331c600e6e95ac41cbf2e79de7089285250a22c97d6bd45bf61fc1e921c1a4e"
+    },
+    {
+      "date": "2026-11-19",
+      "fingerprint": "53645dcc192f7dd9e1c4c893ac28ca53495105fb1ba511e0c5a7428d118149b2"
+    }
+  ]
+}
