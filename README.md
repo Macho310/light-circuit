@@ -1,5 +1,6 @@
 # Light Circuit
 
+https://macho310.github.io/light-circuit/
 ピースを配置・回転し、すべての電球の電流を目標値に合わせるブラウザパズル。
 
 ## 操作
